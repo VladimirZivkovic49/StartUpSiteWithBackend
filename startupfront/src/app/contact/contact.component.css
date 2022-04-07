@@ -1,0 +1,26 @@
+p
+{
+    
+    color:red;
+
+}
+.mask{  
+  
+    float:left ;
+    width:70vw;
+    height:1000px;  
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.7)), url("../../assets/IMG/CompanyLocation3.jpg");
+   /* background-image:url("../../assets/IMG/Rovinj3.JPG");   */
+   /* background-size: 100% ;   */
+   background-size: cover;  
+   
+   /* position: fixed; */
+   z-index:-1;  
+}   
+.Location
+{
+background-color: aliceblue;   
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
