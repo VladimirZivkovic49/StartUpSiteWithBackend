@@ -8,7 +8,7 @@
          <div class="Location" >
          <h4>Contact us:</h4>
           <form   action="https://formspree.io/f/mvolbnnz"
-          method="POST">
+          method="POST" (ngSubmit)="sendMessage()" id="messageForm">
             <input
                  name ="firstname"
                 
@@ -38,43 +38,11 @@
                 class="form-control me-2"
                 type="textarea"
                 placeholder="Put your message here..." > -->
-            <button class="btn btn-success" type="submit">Submit</button>
+            <button class="btn btn-success" type="submit" form="messageForm">Submit</button>
            <!--  <button class="btn btn-warning" type="submit">Cancel</button> -->
           </form>
         </div>
-  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
-  <!-- <script>
-   const inputs=document.querySelector('from')
-   const btn=document.querySelector('button')
-   btn.addEventListener
-   ('click',
-          ()=>
-            {
-              Email.send
-                 (
-                    {
-                      Host : "smtp.mailtrap.io",
-                      Username : "26300469eb260e",
-                      Password : "45761af4973836",
-                      To : "xyz@ggmail.com",
-                      From : inputs.element["email"].value,
-                      Subject : "New contact form enquiry",
-                      Body : intmputs.element["message"].value + "<br>"+ intmputs.element["firstname"].value
-                      + intmputs.element["lastname"].value
-                    }
-                
-                 )
-                 .then
-                  (
-                  msg => alert("You sent e mail")
-                  )
-            
-                }
-  
-  
-  )
-  
-  </script> -->
+ 
   
         </div>
         
