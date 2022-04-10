@@ -9,13 +9,15 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TeamMembersComponent } from './teamInHouse/team-members/team-members.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     FooterComponent,
     ContactComponent,
-    HomeComponent
+    HomeComponent,
+    TeamMembersComponent
   ],
   imports: [
     BrowserModule,
