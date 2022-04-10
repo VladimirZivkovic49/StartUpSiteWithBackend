@@ -1,7 +1,11 @@
-<app-nav></app-nav>
-<div class="container" style="margin: top 100px;">
-    <router-outlet></router-outlet>
+<div class="container">
+    <div class="row">
+        <app-nav></app-nav>
     </div>
-<div id="foot" >
-    <app-footer></app-footer>
+    <div class="row">
+        <router-outlet></router-outlet>
     </div>
+    <div class="row">
+        <app-footer></app-footer>
+    </div>
+</div>

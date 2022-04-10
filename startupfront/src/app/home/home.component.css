@@ -1,20 +1,19 @@
-p
-{
-    
+p {
+
     color: blue;
 
 }
 
-.mask{  
-  
-     float:left;
-     width:100vw;
-     height:400px;  
-     background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.7)), url("../../assets/IMG/CompanyName.jpg");
+.mask {
+
+    float: left;
+    width: 100vw;
+    height: 400px;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7)), url("../../assets/IMG/CompanyName.jpg");
     /* background-image:url("../../assets/IMG/Rovinj3.JPG");   */
     /* background-size: 100% ;   */
-    background-size: cover;  
-    background-repeat:true;
+    background-size: cover;
+    background-repeat: true;
     /* position: fixed; */
-    z-index:-1;  
-}   
+    z-index: -1;
+}
