@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TeamMembersComponent } from './teamInHouse/team-members/team-members.component';
+import { AboutCompanyComponent } from './about-company/about-company.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +18,8 @@ import { TeamMembersComponent } from './teamInHouse/team-members/team-members.co
     FooterComponent,
     ContactComponent,
     HomeComponent,
-    TeamMembersComponent
+    TeamMembersComponent,
+    AboutCompanyComponent
   ],
   imports: [
     BrowserModule,
